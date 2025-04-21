@@ -7,8 +7,6 @@ from tensorflow.keras.layers import Dense
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
-
-# Function to load the Iris dataset (either from CSV or use the built-in dataset)
 def load_iris_data(file_path=None):
     if file_path:
         try:
@@ -113,4 +111,10 @@ def main(file_path=None):
 
 
 if __name__ == "__main__":
+<<<<<<< Updated upstream:irisDataset-model/a.py
     main("/Users/serdarkara/Desktop/Python/XAI-kuzey/XAI-kuzey/iris.csv")
+=======
+    # Change to your CSV file path or leave as None to use built-in dataset
+    file_path = None  # "iris.csv"
+    main("iris.csv")
+>>>>>>> Stashed changes:a.py
